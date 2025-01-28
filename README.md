@@ -50,7 +50,7 @@ E-Learning app for Universitas Insan Pembangunan Indonesia. This is bachelor pro
 
 ## Backend
 
-1. Go to `./Backend` directory
+1. Go to `Backend` directory
 
 ```bash
 cd ./Backend

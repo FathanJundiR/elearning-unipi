@@ -15,7 +15,9 @@
     "@mantine/hooks": "^7.16.1",
     "@mantine/notifications": "^7.16.1",
     "axios": "^1.7.7",
+    "babel-plugin-react-compiler": "^19.0.0-beta-27714ef-20250124",
     "react": "^18.3.1",
+    "react-compiler-runtime": "^19.0.0-beta-27714ef-20250124",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.28.0"
   },
@@ -25,6 +27,7 @@
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
     "eslint": "^9.13.0",
+    "eslint-plugin-react-compiler": "^19.0.0-beta-27714ef-20250124",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
     "globals": "^15.11.0",

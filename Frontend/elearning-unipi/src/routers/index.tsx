@@ -26,16 +26,17 @@ const router = createBrowserRouter(
     },
     {
       element: <BaseLayout />,
-      loader: () => {
-        if (!localStorage.access_token) {
-          notifications.show({
-            title: "Anda Belum Login",
-            message: "Silahkan Login terlebih dahulu! 🌟",
-          });
-          return redirect("/login");
-        }
-        return null;
-      },
+      //uncomment
+      // loader: () => {
+      //   if (!localStorage.access_token) {
+      //     notifications.show({
+      //       title: "Anda Belum Login",
+      //       message: "Silahkan Login terlebih dahulu! 🌟",
+      //     });
+      //     return redirect("/login");
+      //   }
+      //   return null;
+      // },
       children: [
         {
           path: "/",

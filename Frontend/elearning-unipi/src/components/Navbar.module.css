@@ -1,0 +1,33 @@
+.navbar {
+  /* background: red; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  background: #ffff;
+}
+
+.navbar .logo {
+  font-size: 25px;
+}
+
+.navitem {
+  display: flex;
+  justify-content: center;
+  /* background: #000; */
+}
+
+.navitem a {
+  text-decoration: none;
+  padding: 0.2em 0.5em;
+  font-size: 16px;
+  border: 2px solid green;
+  border-radius: 0.8em;
+  margin: 0 0.5em;
+  color: black;
+}

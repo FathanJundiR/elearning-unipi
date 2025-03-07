@@ -1,0 +1,36 @@
+.card {
+  @media (max-width: $mantine-breakpoint-xs) {
+  }
+  @media (min-width: $mantine-breakpoint-xs) {
+    /* width: 300px;
+    max-height: 100px; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: 0.3s;
+    border: 2px solid transparent;
+  }
+}
+
+.card:hover {
+  border: 2px solid blue;
+}
+
+.icon {
+  /* background: #000; */
+  min-width: 50px;
+  justify-content: center;
+  align-content: center;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail {
+  max-width: 100%;
+  margin-top: 10px;
+  /* background: yellow; */
+}

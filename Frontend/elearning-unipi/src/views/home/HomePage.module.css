@@ -1,0 +1,15 @@
+.boxAnnouncement {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.anchorMore {
+  color: black;
+  transition: 0.5s;
+}
+
+.anchorMore:hover {
+  color: blue;
+}

@@ -4,6 +4,9 @@ import { notifications } from "@mantine/notifications";
 import LoginPage from "../views/login/LoginPage";
 import BaseLayout from "../views/BaseLayout";
 import HomePage from "../views/home/HomePage";
+import MataKuliah from "../views/mataKuliah/MataKuliah";
+import ErrorNotFound from "../views/errorPage/ErrorNotFound";
+import MataKuliahDetail from "../views/mataKuliah/MataKuliahDetail";
 const url = localUrl;
 
 const router = createBrowserRouter(
@@ -37,10 +40,21 @@ const router = createBrowserRouter(
       //   }
       //   return null;
       // },
+      errorElement: <ErrorNotFound />,
       children: [
         {
           path: "/",
           element: <HomePage></HomePage>,
+        },
+        {
+          path: "matakuliah",
+          element: <MataKuliah />,
+          children: [],
+        },
+        {
+          //ganti
+          path: "matakuliah/detail",
+          element: <MataKuliahDetail />,
         },
       ],
     },

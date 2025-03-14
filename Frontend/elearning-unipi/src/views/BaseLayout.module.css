@@ -1,0 +1,14 @@
+.nav {
+  @media (max-width: $mantine-breakpoint-sm) {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+}
+.container {
+  margin: 0 1rem 0px 14rem;
+  paddingtop: 1rem;
+  @media (max-width: $mantine-breakpoint-sm) {
+    margin: 0 1rem;
+  }
+}

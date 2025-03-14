@@ -21,6 +21,29 @@
   border-bottom: 1px solid var(--mantine-color-blue-7);
 }
 
+.headerSmall {
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--mantine-color-blue-filled);
+  align-items: center;
+}
+
+.drawerTitle {
+  color: var(--mantine-color-white);
+}
+.drawerHeader {
+  background-color: var(--mantine-color-blue-filled);
+}
+
+.drawerClose {
+  color: var(--mantine-color-white);
+}
+
+.scrollArea {
+  background-color: var(--mantine-color-blue-filled);
+}
+
 .footer {
   padding-top: var(--mantine-spacing-md);
   margin-top: var(--mantine-spacing-md);

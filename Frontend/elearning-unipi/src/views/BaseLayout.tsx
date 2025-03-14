@@ -1,14 +1,15 @@
-import { HeaderMegaMenu } from "../components/HeaderMegaMenu";
-import Navbar from "../components/Navbar";
+import { Outlet } from "react-router-dom";
 import { NavbarSimpleColored } from "../components/NavbarSimpleColored";
-import HomePage from "./home/HomePage";
+import classes from "./BaseLayout.module.css";
 
 export default function BaseLayout() {
   return (
     <>
-      <NavbarSimpleColored></NavbarSimpleColored>
-      <div style={{ margin: "0  1rem 0px 14rem", paddingTop: "1rem" }}>
-        <HomePage></HomePage>
+      <div className={classes.nav}>
+        <NavbarSimpleColored></NavbarSimpleColored>
+      </div>
+      <div className={classes.container}>
+        <Outlet />
       </div>
     </>
   );

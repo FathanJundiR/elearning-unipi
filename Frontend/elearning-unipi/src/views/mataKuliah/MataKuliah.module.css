@@ -1,0 +1,9 @@
+.section {
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  gap: var(--mantine-spacing-md);
+  flex-wrap: wrap;
+}

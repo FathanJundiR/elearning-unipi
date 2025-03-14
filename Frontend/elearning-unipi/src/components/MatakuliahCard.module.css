@@ -1,0 +1,7 @@
+.card {
+  max-width: rem(300px);
+  @media (max-width: $mantine-breakpoint-sm) {
+    width: 100%;
+    max-width: 100%;
+  }
+}
